@@ -1,13 +1,13 @@
 terraform {
   backend "s3" {
-    bucket = "lesson4-tf-najla"
+    bucket = "lesson4-tf-najla-zone2"
     key    = "terraform/terraform.tfstate"
-    region = "us-east-2"
+    region = "us-west-1"
   }
 }
 
 provider "aws" {
-  region = "us-east-2"
+  region = "us-west-1"
   #profile = "default"
 
   default_tags {
