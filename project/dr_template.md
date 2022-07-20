@@ -17,13 +17,27 @@ Primary side is deployed in zone 2 `us-west-1`
 | Ubuntu-Web | Web server  | `t3.micro` | 3 nodes | deployed to DR |
 | Udacity | SSH key pair  |  | 1 key | stored on SRE team member machine |
 | udacity-najla | AMI  |  | 1 image | created in multiple locations|
-| udacity-pg-s | Database  | `db.t2.small` | 2 node | replicated | 
+| udacity-pg-p | primary cluster Database  | `db.t2.small` | 2 node | replicated | 
+| udacity-pg-s | secondary cluster Database  | `db.t2.small` | 2 node | replicated | 
 | eks-udacity-node | EKS node  | `t3.mediuml` | 2 node | deployed to DR |
 | ALB | Cloud Load Balancer  |  | 1 ALB | created in multiple regions |
 | VPC | Networking blueprint  |  | 1 VPC | deployed to DR  |
 
 ### Descriptions
-More detailed descriptions of each asset identified above.
+
+The webserver hosting the application should be deployed to multiple availability zones and have redundancy and adding 3 nodes is ideal.
+
+SSH key pair used to SSH into the web server is an important IT asset.
+
+The customized AMI used to deploy the spin the webserver should be copied in in multiple locations.
+
+The database should be deployed into primary and secondary clusters, having 2 nodes each.
+
+Kubernetes cluster has 2 nodes and should be deployed to DR in another region.
+
+The application load balancer which is the entry point to the application should be deployed in each region.
+
+The VPC representing the networking blueprint has IPs in multiple availability zones.
 
 ## DR Plan
 ### Pre-Steps:
