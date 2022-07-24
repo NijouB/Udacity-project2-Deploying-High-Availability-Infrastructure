@@ -4,10 +4,10 @@
 Identify your zones here
 ### Primary site 
 
-Primary side is deployed in zone 1 `us-east-2`
+Primary side is deployed in zone 1:  US East (Ohio) `us-east-2` 
 ### DR site 
 
-Primary side is deployed in zone 2 `us-west-1`
+DR side is deployed in zone 2: US West (N. California) `us-west-1`
 
 ## Servers and Clusters
 
