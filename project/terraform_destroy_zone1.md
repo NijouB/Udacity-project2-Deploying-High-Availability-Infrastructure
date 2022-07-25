@@ -1,12 +1,15 @@
 # Step 7: Destroy It All
 
-## Terraform destroy Zone1 
+## RDS maunal deletion Zone1 
 
 
-RDS maunal deletion 
+Screenshot of RDS maunal deletion 
 
 ![rds_destroy_zone1](img/rds_destroy_zone1.png)
 
+
+
+## Terraform destroy Zone1 
 
 Screenshot of the final Terraform run 
 
