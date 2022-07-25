@@ -14,4 +14,4 @@ Screenshot of RDS maunal deletion
 Screenshot of the final Terraform run 
 
 
-![Terraform destroy](img/terraform_destroy_zone2.png)
+![Terraform destroy](img/terraform_destroy_zone2-1.png)
