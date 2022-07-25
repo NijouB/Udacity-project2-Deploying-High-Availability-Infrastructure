@@ -3,4 +3,4 @@
 
 Screenshot of a successful Terraform run  
 
-![Terraform apply](img/step4.png)
+![Terraform apply](img/terraform_deploy_zone1.png)

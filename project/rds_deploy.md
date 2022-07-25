@@ -3,4 +3,4 @@
 Screenshot of a successful Terraform run  
 
 
-![Terraform apply](img/step6.png)
+![Terraform apply](img/rds_deploy.png)

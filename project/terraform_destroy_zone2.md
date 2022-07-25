@@ -3,4 +3,4 @@
 
 ## Terraform destroy Zone2
 
-![Terraform destroy](img/step7-2.png)
+![Terraform destroy](img/terraform_destroy_zone2.png)

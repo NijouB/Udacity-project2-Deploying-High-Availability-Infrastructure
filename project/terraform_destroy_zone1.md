@@ -4,4 +4,4 @@
 
 Screenshot of the final Terraform run 
 
-![Terraform destroy](img/step7-1.png)
+![Terraform destroy](img/terraform_destroy_zone1.png)
