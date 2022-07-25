@@ -1,4 +1,4 @@
-Step 5: Deploy the Infrastructure to zone2
+# Step 5: Deploy the Infrastructure to zone2
 
 Screenshot of a successful Terraform run  
 
